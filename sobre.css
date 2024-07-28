@@ -1,27 +1,48 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="sobre.css" />
-    <title>Sobre</title>
-</head>
-<header>
-    <h2><strong>Sobre mim</strong></h2>
-</header>
-<body>
-    <main>
-        
-    </main>
-    <section>
-    <p> Paula Cardoso é <strong>graduada em Educação Infantil pela Universidade Federal de Viçosa</strong>,
-        Especialista em Práticas Pedagógicas pela Universidade Federal de Ouro Preto e Especialista em Ensino
-        de Artes Visuais pela Universidade Federal de Minas Gerais. Coordenadora da Escola de Formação de 
-        Servidores Públicos Municipais de Bom Despacho-MG e Tutora do Programa Nacional de Formação Continuada
-        a Distância nas Ações do FNDE. Ampla experiência na área da Educação, com ênfase em Métodos e Técnicas 
-        de Ensino. Experiência como professora de Educação Infantil nas redes pública e particular de ensino. 
-        Atua como professora na temática de Educação Infantil no Instituto ncora Educação</p>
-    </section>    
-</body>
-<footer>Paula Cardoso Educadora Infantil</footer>
-</html>
+* {
+    margin: 20px;
+}
+
+header {
+    color:antiquewhite;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+header h2{
+    padding-bottom: 25px;
+    text-align: center;
+    padding-right: 15px;
+    font-size: 50px;
+}
+
+body {
+    background-color: #521908;
+    color:#f7ebd3;
+    font-size: 30px;
+    text-indent: 5rem;
+    letter-spacing: 2px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    line-height: 2em;
+    padding-left: 40px;
+    padding-right: 40px;
+         
+}
+
+main {
+    background: #ca7b42 url("./img/FotoPaula.jpg") no-repeat center;
+    height:70vh;
+    padding-bottom: 30px;
+}
+
+strong {
+    color:#ca7b42;
+}
+
+footer {
+
+    text-align: right;
+    font-size: 15px;
+    color:#ffdbaf
+}
+       
