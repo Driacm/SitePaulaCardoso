@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="news.css" rel="stylesheet">
+    <title>Formulário de contato:</title>
+</head>
+<body>
+    <h1>Formulário de Contato</h1>
+    <h3>Cadastre seu email para receber dicas e novidades</h3>
+    <form action="https://formsubmit.co/paulacardosoein@gmail.com" method="POST" class="form">
+        <label for="name">Nome</label>
+        <input type="text" name="name" id="name" required>
+        <label for="email">Email</label>
+        <input type="email" name="email"  id="email" required>
+        <label for="message">Mensagem</label>
+        <textarea name="message" placeholder="Deixe uma mensagem para Paula Cardoso" id="message"  required></textarea>
+        <input type="hidden" name="_next" value="http://127.0.0.1:5500/Obrigado.html">
+        <button type="submit">Send</button>
+    </form>    
+</body>
+</html>
