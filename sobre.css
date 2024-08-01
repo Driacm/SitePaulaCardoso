@@ -3,21 +3,27 @@
 }
 
 header {
-    color:antiquewhite;
+    color:#521908;
     text-align: center;
     padding-bottom: 15px;
 }
 
 header h2{
     padding-bottom: 25px;
+    padding-top: 25px;
     text-align: center;
     padding-right: 15px;
     font-size: 50px;
+    background-color: #f7ebd3;
+    border-radius: 15px;
+}
+header strong {
+    color:#521908;
 }
 
 body {
-    background-color: #521908;
-    color:#f7ebd3;
+    background-color: white;
+    color:#ca7b42;
     font-size: 30px;
     text-indent: 5rem;
     letter-spacing: 2px;
@@ -26,13 +32,15 @@ body {
     line-height: 2em;
     padding-left: 40px;
     padding-right: 40px;
+    text-align: justify;
          
 }
 
 main {
-    background: #ca7b42 url("./img/FotoPaula.jpg") no-repeat center;
+    background: white url("./img/FotoPaula.jpg") no-repeat center;
     height:70vh;
     padding-bottom: 30px;
+    border-radius: 10px;
 }
 
 strong {
@@ -45,4 +53,41 @@ footer {
     font-size: 15px;
     color:#ffdbaf
 }
-       
+
+#página {
+    text-align:right;
+    font-size: 22px;
+    list-style: none;
+    padding-left:350px;
+}
+
+#início {
+text-align:left;
+font-size: 22px;
+list-style: none;
+padding-right: 300px;
+}
+
+#página a {    
+color:#521908;
+}
+
+#início a {
+color:#521908;
+}
+
+#controle {
+    display:flex;
+     }
+@media (max-width:999px) {
+
+        header {
+            overflow-x:hidden;
+        }
+
+        body {
+            overflow-x:hidden;
+        }
+        
+    }
+   
