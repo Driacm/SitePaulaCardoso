@@ -11,23 +11,34 @@ header {
 header h2 {
     color:#823919;
     font-size: 45px;
-    padding-left: 60px;
+    text-align: justify;
+    padding-left: 100px;
     }
 #página {
-        text-align:end;
+        text-align:right;
         font-size: 22px;
         list-style: none;
+        padding-left:100px;
     }
     
 #home {
-    text-align:start;
+    text-align:left;
     font-size: 22px;
     list-style: none;
+    padding-right: 320px;
+}
+
+#página a {    
+    color:#521908;
+}
+
+#home a {
+    color:#521908;
 }
 
 body {
-    background-color: #521908;
-    color:#f7ebd3;
+    background-color: white;
+    color:#823919;
     padding-left: 100px;
     padding-right: 100px;
     font-size: 30px;
@@ -36,50 +47,66 @@ body {
     padding-top: 30px;
     padding-bottom: 30px;
     line-height: 2em;
-         
-    
 }
 
 #parte1 p{
-    background-color: #ca7b42;
+    background-color: white;
     font-size: 30px;
     border:#ca7b42 solid 5px;
     border-radius: 5px;
 }
 
 #parte2 p{
-    color:#ca7b42;
+    color:#823919;
     text-align: center;
     line-height: 1.5;
-    background-color: #ffdbaf;
+    background-color: white;
+    border:#ca7b42 solid 5px;
+    border-radius: 5px;
     padding-top: 20px;
     padding-bottom: 15px;
     border-radius: 5px;
-
-
 }
 
 #parte2 h3 {
     color:#ca7b42;
-    text-align: center;
+    text-align: left;
     line-height: 1.5;
     padding-top: 15px;
     font-size: 38px;
-    background-color: #f7ebd3;
+    background-color: white;
     border-radius: 8px;
-    }
+ }
 
     img {
         padding-left: 90px;
         text-align: center;
-    }
+ }
+
  #controle {
     display:flex;
     color:#823919;
  }
-    footer {
-
+footer {
         text-align: right;
         font-size: 15px;
-        color:#ffdbaf
+        color:#823919;
     }
+
+ @media (max-width:999px) {
+
+        header {
+            overflow-x:hidden;
+        }
+
+        body {
+            overflow-x:hidden;
+        }
+
+        img {
+            max-width: 450px;
+            max-height: 350px;
+            margin:0;
+        }
+    }
+
