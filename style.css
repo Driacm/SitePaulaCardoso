@@ -118,19 +118,25 @@ footer {
   background-color:#f7ebd3;
   border-radius: 5px;
   text-align:center;
-  font-size: 10px;
+  font-size: 9px;
   padding-top: 18px;
   padding-bottom: 20px;
  }
 
+ #footer {
+  padding-bottom: 30px;
+ }
+
  footer a{
-  color:#521908;
+  color:#ca7b42;
+  font-family: sans-serif;
+  font-size: 22px;
  }
 
  footer p {
-  color:#fff;
-  font-size: 13px;
- }
+  color:#521908;
+  font-size: 16px;
+   }
 
 @media (max-width: 999px) {
   body {
