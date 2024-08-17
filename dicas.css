@@ -111,11 +111,13 @@ padding-left:100px;
 }
 
 #página a {    
-color:#823919;
+color:#521908;
+font-size: 22px;
 }
 
 #sobre a {
-color:#823919;
+color:#521908;
+font-size: 22px;
 }
 
 #controle {
@@ -137,5 +139,6 @@ footer {
     body {
         overflow-x:hidden;
     }
+    
 }
 

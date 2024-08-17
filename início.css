@@ -9,7 +9,7 @@ header {
     border-radius: 8px;
     }
 header h2 {
-    color:#823919;
+    color:#521908;
     font-size: 45px;
     text-align: justify;
     padding-left: 100px;
@@ -30,10 +30,12 @@ header h2 {
 
 #página a {    
     color:#521908;
+    font-size: 22px;
 }
 
 #home a {
     color:#521908;
+    font-size: 22px;
 }
 
 body {
@@ -108,5 +110,5 @@ footer {
             max-height: 350px;
             margin:0;
         }
+        
     }
-

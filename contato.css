@@ -18,6 +18,9 @@ body {
     text-align: center;
     height: 15vh;
 }
+body strong {
+    color:#823919;
+}
 
 
 #página {
@@ -27,6 +30,8 @@ body {
     padding-left: 1150px;
     
 }
+
+
 
 #produtos {
 text-align:left;

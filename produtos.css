@@ -33,7 +33,7 @@ h3 {
     color:#a38866;
 }
 .link {
-    background-color: #f7ebd3;
+    background-color: #ca7b42;
     border-radius: 10px;
     padding-left: 20px;
     padding-bottom: 8px;
@@ -47,11 +47,12 @@ a {
     text-align: center;
     
   }
+
  
 body a:hover {
     opacity: 0.5;
-  }
 
+  }
 #página {
     text-align: right;
     font-size: 15px;
@@ -68,10 +69,12 @@ padding-left:150px;
 
 #página a {    
 color:#521908;
+font-size: 22px;
 }
 
 #dicas a {
 color:#521908;
+font-size:22px;
 }
 
 #controle {
@@ -95,4 +98,3 @@ color:#521908;
     }
     
 }
-
